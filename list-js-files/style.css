@@ -1,0 +1,15 @@
+#js-files-table {
+    /* Add your custom styles here */
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#js-files-table th, #js-files-table td {
+    text-align: left;
+    padding: 8px;
+}
+
+#js-files-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
